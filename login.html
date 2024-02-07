@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Document</title>
+</head>
+    <style>
+      
+        .container{
+            background: url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 600px;
+        }
+        .login-form {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            top: 6em;
+            left: 3em;
+        }
+        .login-form h1{
+            text-align: center;
+            font-size: 2em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(163, 6, 6);
+        }
+        .login-form input{
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #cec9c9;
+        }
+        .login-form button{
+            width: 90%;
+            margin: 8%;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            background-color: rgb(163, 6, 6);
+        }
+        .login-form a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="container">
+        <div class="wrapper">
+        <div class="login-form">
+            <h1>Create New Account</h1>
+        <form>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign In</button>
+        </form>
+        <a href="#">Create a new account</a>
+    </div>
+</div>
+    </section>
+</body>
+</html>

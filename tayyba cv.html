@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    body{
+    background-color: black;
+    color: aliceblue;
+    }
+    img{
+    width: 100%;
+    height: 100%;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    padding: 20px 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 10%;
+    height: 70px;
+    border-radius: 50%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    text-transform:uppercase;
+}
+
+span{
+    color: orange;
+}
+
+.image{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+
+.image img{
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: translate(-50%);
+     border-radius: 50%;
+     box-shadow: 0 0 67px rgb(255 165 0);
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-right: 60%;
+}
+
+.details h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.details p{
+    line-height: 22px;
+}
+
+.image:hover {
+     bottom: 40px;
+}
+
+.details a{
+    background-color: yellow;
+    padding: 17px 18px;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.details a:hover{
+    background-color: rgb(221, 85, 7);
+ }
+</style>
+<body>
+    <div class="cosntainer">
+        <nav>
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/art-studio-logo-design-template-808ddf63b981120eead112921ce86893_screen.jpg?ts=1590479036" alt="error is occuring">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="details">
+            <h1>Hi! <br> i'm a<span><i>"Web Developer"</i></span></h1>
+            <p><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reiciendis sequi necessitatibus,neque sint asperiores natus, eum dolor?</h3></p>
+            <a href="#">Download CV</a>
+        </div>
+        <div class="image">
+            <img src="images/tayyba.jpg" alt="not loading">
+        </div> 
+    </div>
+</body>
+</html>
